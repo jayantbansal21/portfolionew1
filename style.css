@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+body {
+    
+    background: url("https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png") no-repeat center fixed;
+    background-size: cover;
+}
+h1 {
+    background-color: #aed6fc ;
+    color: mintcream;
+    font-family: 'Major Mono Display', monospace;
+    max-width: fit-content;
+}
