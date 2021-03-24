@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 body {
     text-align: center;
-    background: url("https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png") no-repeat center fixed;
+    background: url("bg.png") no-repeat center fixed;
     background-size: cover;
 }
 h1 {
@@ -9,6 +9,16 @@ h1 {
     align-self: center;
     background-color: #97c6f3e7 ;
     color: mintcream;
-    font-family: 'Major Mono Display', monospace;
+    font-family:  monospace;
     /*max-width: fit-content;*/
+}
+
+.links{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.links h3{
+    margin-top: 0;
+    margin-right: 20px;
 }
