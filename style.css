@@ -6,12 +6,21 @@ body {
     margin-top: 10%;
     background: url("bg.png") no-repeat center fixed;
     background-size: cover;
-}
+     /*
+     background-color: red;
+     animation-name: example;
+     animation-duration: 4s;
+
+
+    @keyframes example {
+     from {background-color: red;}
+  to {background-color: yellow;} */
+
+}   
 h1, h2{
     color: rgb(0, 0, 0);
     font-size: 40px;
     font-weight: bold;
-    /*max-width: fit-content;*/
     text-align: center;
 }
 .links{
@@ -28,4 +37,3 @@ h1, h2{
 .links h3:nth-last-of-type(1){
     margin-right: 0;
 }
-
